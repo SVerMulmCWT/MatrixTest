@@ -150,7 +150,7 @@
             <version>2.18.1</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>src/main/resources/CreateAndModifyClientFile/US_QA_Regression.xml</suiteXmlFile>
+                <suiteXmlFile>src/main/resources/CreateAndModifyClientFile/US_QA_Regression2.xml</suiteXmlFile>
               </suiteXmlFiles>
             </configuration>
           </plugin>
