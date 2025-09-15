@@ -26,6 +26,7 @@ public class LoginPageTest extends TestBase {
 	@BeforeClass
 	@Parameters({"dataTable"})
 	public void beforeClass(String excelPath) {
+		System.out.println(excelPath);
 		//Initialize Variable(s)
 		genMethods = new GenericMethods();
 		excelMethods = new ExcelMethods();
