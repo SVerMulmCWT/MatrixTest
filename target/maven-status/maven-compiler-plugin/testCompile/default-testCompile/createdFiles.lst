@@ -1,0 +1,14 @@
+com\mymatrix\qa\testcases\ChangeBranchPageTest.class
+com\mymatrix\qa\testcases\LoginPageTest.class
+com\mymatrix\qa\testcases\TicketPageTest.class
+com\mymatrix\qa\regressiontestcases\AirItineraryTest.class
+com\mymatrix\qa\testcases\IRQueueCountPageTest.class
+com\mymatrix\qa\testcases\QueueCountPageTest.class
+com\mymatrix\qa\regressiontestcases\TicketTest.class
+com\mymatrix\qa\regressiontestcases\CreateClientFileTest.class
+com\mymatrix\qa\testcases\TravelerPageTest.class
+com\mymatrix\qa\testcases\AirItineraryPageTest.class
+com\mymatrix\qa\regressiontestcases\HotelItineraryTest.class
+com\mymatrix\qa\regressiontestcases\TravelerTest.class
+com\mymatrix\qa\testcases\HotelItineraryPageTest.class
+com\mymatrix\qa\testcases\SearchClientFilePageTest.class

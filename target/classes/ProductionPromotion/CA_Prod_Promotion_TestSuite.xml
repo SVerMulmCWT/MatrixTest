@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- <suite name="TestSuite" parallel="tests" thread-count="2"> -->
+<suite name="TestSuite">
+	
+	<listeners>
+		<listener class-name="com.mymatrix.qa.analyzer.MyTransformer"></listener>
+		<listener class-name="com.mymatrix.qa.util.Listeners"></listener>
+	</listeners>
+	
+	<test name="Regression Chrome">
+		
+		<parameter name="dataTable" value="\src\main\java\com\mymatrix\qa\testdata\CA Production Promotion.xlsx"></parameter>
+		
+		<classes>
+			<class name="com.mymatrix.qa.testcases.LoginPageTest"></class>
+			<class name="com.mymatrix.qa.testcases.ChangeBranchPageTest"></class>
+			<class name="com.mymatrix.qa.testcases.SearchClientFilePageTest"></class>
+			<class name="com.mymatrix.qa.testcases.TravelerPageTest"></class>
+			<class name="com.mymatrix.qa.testcases.AirItineraryPageTest"></class>
+			<class name="com.mymatrix.qa.testcases.HotelItineraryPageTest"></class>
+			<class name="com.mymatrix.qa.testcases.TicketPageTest"></class>
+			<class name="com.mymatrix.qa.testcases.QueueCountPageTest"></class>
+		</classes>
+	</test>
+	
+</suite>

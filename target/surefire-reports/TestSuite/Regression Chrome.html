@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Regression Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Feb 20 13:20:12 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54960 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.ChangeBranchPageTest.changeBranchPageTest()'><b>changeBranchPageTest</b><br>Test class: com.mymatrix.qa.testcases.ChangeBranchPageTest<br>Parameters: Y, US QA, u1011803G, U10118,, Success - 2021/02/20 13:18:40, 1</td>
+<td></td>
+<td>2</td>
+<td>com.mymatrix.qa.testcases.ChangeBranchPageTest@6166e06f</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.ChangeBranchPageTest.changeBranchPageTest()'><b>changeBranchPageTest</b><br>Test class: com.mymatrix.qa.testcases.ChangeBranchPageTest<br>Parameters: n, US QA, u1110101n, U11101,, Success - 2021/02/20 13:18:41, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.ChangeBranchPageTest@6166e06f</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, Matr, n, Success - 2021/02/20 13:18:12, 1</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, , n, Success - 2021/02/20 13:18:16, 2</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112, Matrix129, n, Success - 2021/02/20 13:18:18, 3</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , Matrix129, n, Success - 2021/02/20 13:18:19, 4</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , , n, Success - 2021/02/20 13:18:21, 5</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Forgot Password, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , , n, Success - 2021/02/20 13:18:23, 6</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, US QA, Successful Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, Matrix129, n, Success - 2021/02/20 13:18:35, 7</td>
+<td></td>
+<td>8</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@442675e1</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: n, US QA, UDA0000270C, BLXUIT, , , , , , Success - 2021/02/20 13:18:42, 1</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: n, US QA, , , 0118, Ashlyn, , , , Success - 2021/02/20 13:18:42, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: n, US QA, , , , Ashlyn, , , , Success - 2021/02/20 13:18:43, 3</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: n, US QA, , , , , Aslor, , , Success - 2021/02/20 13:18:43, 4</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: n, US QA, , , , , , Ticket, 7890032961, Success - 2021/02/20 13:18:44, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: n, US QA, , , , , , Ticket, 7890041111, Success - 2021/02/20 13:18:44, 6</td>
+<td></td>
+<td>0</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.SearchClientFilePageTest.searchClientFilePageTest()'><b>searchClientFilePageTest</b><br>Test class: com.mymatrix.qa.testcases.SearchClientFilePageTest<br>Parameters: Y, US QA, UDA0000610N, , , , , , , Success - 2021/02/20 13:19:05, 7</td>
+<td></td>
+<td>18</td>
+<td>com.mymatrix.qa.testcases.SearchClientFilePageTest@49e202ad</td></tr>
+</table><p>
+</body>
+</html>

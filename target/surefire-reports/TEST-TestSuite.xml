@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="3.725" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\u028sxV\Softwares\MyMatrix-chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\u028sxV\Softwares\MyMatrix-chrome"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\u028sxV\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\u028sxV\Documents\softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\1E\NomadBranch\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Webex\Webex\Applications;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\Java\jdk-14\bin;C:\Users\u028sxV\Documents\softwares\selenium-java-3.141.59\drivers;C:\Program Files\Java\jdk-14\bin;C:\Users\u028sxV\Documents\softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\u028sxV\AppData\Roaming\npm;C:\Users\u028sxV\AppData\Local\Programs\Git\cmd;."/>
+    <property name="maven.conf" value="C:\Users\u028sxV\Documents\softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Users\u028sxV\Documents\softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\u028sxV"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="U028SXV"/>
+    <property name="java.class.path" value="C:\Users\u028sxV\Documents\softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -PRegression"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\u028sxV\Documents\softwares\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="1.011"/>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="1.414"/>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="1.339"/>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="1.758"/>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="1.346"/>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="1.546"/>
+  <testcase name="loginTest" classname="com.mymatrix.qa.testcases.LoginPageTest" time="8.901"/>
+  <testcase name="changeBranchPageTest" classname="com.mymatrix.qa.testcases.ChangeBranchPageTest" time="2.713"/>
+  <testcase name="changeBranchPageTest" classname="com.mymatrix.qa.testcases.ChangeBranchPageTest" time="0.153"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="0.001"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="0.201"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="0.146"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="0.168"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="0.14"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="0.135"/>
+  <testcase name="searchClientFilePageTest" classname="com.mymatrix.qa.testcases.SearchClientFilePageTest" time="18.208"/>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- <suite name="TestSuite" parallel="tests" thread-count="2"> -->
+<suite name="TestSuite">
+	
+	<listeners>
+<!-- 		<listener class-name="com.mymatrix.qa.analyzer.MyTransformer"></listener> -->
+		<listener class-name="com.mymatrix.qa.util.Listeners"></listener>
+	</listeners>
+	
+	<test name="Regression Chrome">
+		
+		<parameter name="dataTable" value="\src\main\java\com\mymatrix\qa\testdata\US QA Regression.xlsx"></parameter>
+		<!-- C:\Users\U501SXV\eclipse-workspace\MyMatrix_orig\src\main\java\com\mymatrix\qa\testdata -->
+		<classes>
+			<class name="com.mymatrix.qa.testcases.LoginPageTest"></class>
+			
+		</classes>
+	</test>
+	
+</suite>
