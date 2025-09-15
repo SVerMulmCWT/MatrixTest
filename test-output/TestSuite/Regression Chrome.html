@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Regression Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 14 20:12:34 CDT 2025</td>
+<td>Started on:</td><td>Sun Sep 14 21:31:39 CDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>41 seconds (41839 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17561 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,199 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, US QA, Successful Login, https://mymatrixqa.mycwt.com/login/Default.aspx, U501sxv, Welcome2cwt2025!, Canada, Y, Success - 2025/05/20 21:49:47, 7</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]&quot;}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LNUS5CG91852P3&apos;, ip: &apos;10.100.49.194&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at com.mymatrix.qa.pagemethods.LoginPage.login(LoginPage.java:95)
-	at com.mymatrix.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:79)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1238047663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1238047663'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]&quot;}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LNUS5CG91852P3&apos;, ip: &apos;10.100.49.194&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at com.mymatrix.qa.pagemethods.LoginPage.login(LoginPage.java:95)
-	at com.mymatrix.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:79)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>7</td>
-<td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
-<tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, US QA, Successful Login, https://mymatrixqa.mycwt.com/login/Default.aspx, U501sxv, Welcome2cwt2025!, US Commercial, Failure - 2025/09/14 20:12:19, Failure - 2025/05/20 21:49:20, 6</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]&quot;}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LNUS5CG91852P3&apos;, ip: &apos;10.100.49.194&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at com.mymatrix.qa.pagemethods.LoginPage.login(LoginPage.java:95)
-	at com.mymatrix.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:79)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace964094970", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace964094970'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]&quot;}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LNUS5CG91852P3&apos;, ip: &apos;10.100.49.194&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id=&apos;ContentPlaceHolder1_userIdTextBox&apos;]}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at com.mymatrix.qa.pagemethods.LoginPage.login(LoginPage.java:95)
-	at com.mymatrix.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:79)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>12</td>
-<td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -269,27 +76,37 @@ Session ID: d0fba164ed19bf5101e9a8e84316c9db
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112, Matrix129, , Success - 2025/09/14 20:12:09, Success - 2025/05/20 21:48:52, 2</td>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112, Matrix129, , Success - 2025/09/14 21:18:26, Success - 2025/09/14 21:30:33, 2</td>
 <td></td>
 <td>1</td>
 <td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
 <tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , , , Success - 2025/09/14 20:12:12, Success - 2025/05/20 21:48:54, 3</td>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, US QA, Successful Login, https://mymatrixqa.mycwt.com/login/Default.aspx, U501sxv, Welcome2cwt2025!, US Commercial, Failure - 2025/09/14 21:18:42, Failure - 2025/09/14 21:30:47, 6</td>
+<td></td>
+<td>2</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: Y, US QA, Successful Login, https://mymatrixqa.mycwt.com/login/Default.aspx, U501sxv, Welcome2cwt2025!, Canada, Failure - 2025/09/14 21:18:54, Failure - 2025/09/14 21:30:55, 7</td>
 <td></td>
 <td>1</td>
 <td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
 <tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Forgot Password, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , , , Success - 2025/09/14 20:12:15, Success - 2025/05/20 21:48:56, 4</td>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Forgot Password, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , , , Success - 2025/09/14 21:18:31, Success - 2025/09/14 21:30:36, 4</td>
 <td></td>
 <td>1</td>
 <td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
 <tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, Matr, , Success - 2025/09/14 20:12:05, Success - 2025/05/20 21:48:48, 1</td>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, , , , Success - 2025/09/14 21:18:29, Success - 2025/09/14 21:30:35, 3</td>
 <td></td>
 <td>1</td>
 <td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
 <tr>
-<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Successful Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, Matrix129, , Success - 2025/09/14 20:12:17, Success - 2025/05/20 21:48:58, 5</td>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Successful Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, Matrix129, , Success - 2025/09/14 21:18:33, Success - 2025/09/14 21:30:38, 5</td>
+<td></td>
+<td>1</td>
+<td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>
+<tr>
+<td title='com.mymatrix.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mymatrix.qa.testcases.LoginPageTest<br>Parameters: n, US QA, Failed Login, https://matrixqa.carlsonwagonlit.com/usmymatrix/, 112635, Matr, , Success - 2025/09/14 21:18:23, Success - 2025/09/14 21:30:31, 1</td>
 <td></td>
 <td>1</td>
 <td>com.mymatrix.qa.testcases.LoginPageTest@4c39bec8</td></tr>

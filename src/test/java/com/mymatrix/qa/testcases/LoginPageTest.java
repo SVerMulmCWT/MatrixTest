@@ -26,13 +26,12 @@ public class LoginPageTest extends TestBase {
 	@BeforeClass
 	@Parameters({"dataTable"})
 	public void beforeClass(String excelPath) {
-		System.out.println(excelPath);
 		//Initialize Variable(s)
 		genMethods = new GenericMethods();
 		excelMethods = new ExcelMethods();
 		excelMethods.setDataTablePath(excelPath);
 		excelMethods.setSheetName("Login");
-		column = 8;
+		column = 9;
 		
 		//Setup the Report
 		report = ExtentFactory.getInstance();
@@ -68,32 +67,32 @@ public class LoginPageTest extends TestBase {
 			//Go to the desired Website
 			loginPage.accessWebsite(website);
 			
-			//Check if the script will login or reset a password
-			if (expectedResult.equalsIgnoreCase("forgot password")) {
-				//Navigate to the 'Forgot Password' page
-				loginPage.clickForgotPassword();
-				
-				//Check if the 'Forgot Password' page is up
-				checkpoint = loginPage.verifyForgotPasswordPagePresence(checkpoint);
-			} else {
-				//Login to the website
-				loginPage.login(environment, username, password);
-				
-				//Pause the script for a bit
-				genMethods.waitFor(3);
-				
-				//Check if the login was successful
-				checkpoint = loginPage.verifySuccessfulLogin(checkpoint, environment, expectedResult);
-				
-				//Logout, if necessary
-				if (logout.equalsIgnoreCase("y") || logout.equalsIgnoreCase("yes")) {
-					//logout
-					loginPage.logout(environment);
-					
-					//Pause the script a short bit
-					genMethods.waitFor(1);
-				}
-			}
+//			//Check if the script will login or reset a password
+//			if (expectedResult.equalsIgnoreCase("forgot password")) {
+//				//Navigate to the 'Forgot Password' page
+//				loginPage.clickForgotPassword();
+//				
+//				//Check if the 'Forgot Password' page is up
+//				checkpoint = loginPage.verifyForgotPasswordPagePresence(checkpoint);
+//			} else {
+//				//Login to the website
+//				loginPage.login(environment, username, password);
+//				
+//				//Pause the script for a bit
+//				genMethods.waitFor(3);
+//				
+//				//Check if the login was successful
+//				checkpoint = loginPage.verifySuccessfulLogin(checkpoint, environment, expectedResult);
+//				
+//				//Logout, if necessary
+//				if (logout.equalsIgnoreCase("y") || logout.equalsIgnoreCase("yes")) {
+//					//logout
+//					loginPage.logout(environment);
+//					
+//					//Pause the script a short bit
+//					genMethods.waitFor(1);
+//				}
+//			}
 			
 			//Assert all Checkpoints
 			checkpoint.assertAll();

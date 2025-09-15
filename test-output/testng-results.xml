@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T20:12:34 CDT" name="TestSuite" finished-at="2025-09-14T20:13:16 CDT" duration-ms="41839">
+  <suite started-at="2025-09-14T21:31:39 CDT" name="TestSuite" finished-at="2025-09-14T21:31:56 CDT" duration-ms="17561">
     <groups>
     </groups>
-    <test started-at="2025-09-14T20:12:34 CDT" name="Regression Chrome" finished-at="2025-09-14T20:13:16 CDT" duration-ms="41839">
+    <test started-at="2025-09-14T21:31:39 CDT" name="Regression Chrome" finished-at="2025-09-14T21:31:56 CDT" duration-ms="17561">
       <class name="com.mymatrix.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:34 CDT" name="beforeSuite" finished-at="2025-09-14T20:12:40 CDT" duration-ms="5447" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:39 CDT" name="beforeSuite" finished-at="2025-09-14T21:31:42 CDT" duration-ms="3399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:40 CDT" name="beforeClass" finished-at="2025-09-14T20:12:40 CDT" duration-ms="512" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:42 CDT" name="beforeClass" finished-at="2025-09-14T21:31:43 CDT" duration-ms="294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:43 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:12:44 CDT" duration-ms="1050" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:44 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:45 CDT" duration-ms="1020" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,12 +61,12 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[Success - 2025/09/14 20:12:05]]>
+                <![CDATA[Success - 2025/09/14 21:18:23]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Success - 2025/05/20 21:48:48]]>
+                <![CDATA[Success - 2025/09/14 21:30:31]]>
               </value>
             </param>
             <param index="9">
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:44 CDT" name="afterMethod" finished-at="2025-09-14T20:12:46 CDT" duration-ms="2559" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:45 CDT" name="afterMethod" finished-at="2025-09-14T21:31:46 CDT" duration-ms="864" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:46 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:12:48 CDT" duration-ms="1707" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:46 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:47 CDT" duration-ms="1264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,12 +128,12 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[Success - 2025/09/14 20:12:09]]>
+                <![CDATA[Success - 2025/09/14 21:18:26]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Success - 2025/05/20 21:48:52]]>
+                <![CDATA[Success - 2025/09/14 21:30:33]]>
               </value>
             </param>
             <param index="9">
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:48 CDT" name="afterMethod" finished-at="2025-09-14T20:12:49 CDT" duration-ms="715" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:47 CDT" name="afterMethod" finished-at="2025-09-14T21:31:47 CDT" duration-ms="237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:49 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:12:50 CDT" duration-ms="1372" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:47 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:48 CDT" duration-ms="1275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,12 +195,12 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[Success - 2025/09/14 20:12:12]]>
+                <![CDATA[Success - 2025/09/14 21:18:29]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Success - 2025/05/20 21:48:54]]>
+                <![CDATA[Success - 2025/09/14 21:30:35]]>
               </value>
             </param>
             <param index="9">
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:50 CDT" name="afterMethod" finished-at="2025-09-14T20:12:50 CDT" duration-ms="521" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:48 CDT" name="afterMethod" finished-at="2025-09-14T21:31:49 CDT" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:50 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:12:52 CDT" duration-ms="1419" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:49 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:50 CDT" duration-ms="1227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,12 +262,12 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[Success - 2025/09/14 20:12:15]]>
+                <![CDATA[Success - 2025/09/14 21:18:31]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Success - 2025/05/20 21:48:56]]>
+                <![CDATA[Success - 2025/09/14 21:30:36]]>
               </value>
             </param>
             <param index="9">
@@ -279,7 +279,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:52 CDT" name="afterMethod" finished-at="2025-09-14T20:12:53 CDT" duration-ms="728" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:50 CDT" name="afterMethod" finished-at="2025-09-14T21:31:50 CDT" duration-ms="194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,7 +290,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:53 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:12:54 CDT" duration-ms="1243" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:50 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:51 CDT" duration-ms="1223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,12 +329,12 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[Success - 2025/09/14 20:12:17]]>
+                <![CDATA[Success - 2025/09/14 21:18:33]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Success - 2025/05/20 21:48:58]]>
+                <![CDATA[Success - 2025/09/14 21:30:38]]>
               </value>
             </param>
             <param index="9">
@@ -346,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:54 CDT" name="afterMethod" finished-at="2025-09-14T20:12:54 CDT" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:51 CDT" name="afterMethod" finished-at="2025-09-14T21:31:51 CDT" duration-ms="171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:12:54 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:13:06 CDT" duration-ms="12026" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:51 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:54 CDT" duration-ms="2800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,12 +396,12 @@
             </param>
             <param index="7">
               <value>
-                <![CDATA[Failure - 2025/09/14 20:12:19]]>
+                <![CDATA[Failure - 2025/09/14 21:18:42]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Failure - 2025/05/20 21:49:20]]>
+                <![CDATA[Failure - 2025/09/14 21:30:47]]>
               </value>
             </param>
             <param index="9">
@@ -410,95 +410,21 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ContentPlaceHolder1_userIdTextBox']"}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNUS5CG91852P3', ip: '10.100.49.194', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id='ContentPlaceHolder1_userIdTextBox']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ContentPlaceHolder1_userIdTextBox']"}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNUS5CG91852P3', ip: '10.100.49.194', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id='ContentPlaceHolder1_userIdTextBox']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-at com.mymatrix.qa.pagemethods.LoginPage.login(LoginPage.java:95)
-at com.mymatrix.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:13:06 CDT" name="afterMethod" finished-at="2025-09-14T20:13:08 CDT" duration-ms="1203" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:54 CDT" name="afterMethod" finished-at="2025-09-14T21:31:55 CDT" duration-ms="841" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=FAILURE method=LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:13:08 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T20:13:15 CDT" duration-ms="7568" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:55 CDT" name="loginTest" data-provider="inputs" finished-at="2025-09-14T21:31:56 CDT" duration-ms="1204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -537,12 +463,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="7">
               <value>
-                <![CDATA[Y]]>
+                <![CDATA[Failure - 2025/09/14 21:18:54]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[Success - 2025/05/20 21:49:47]]>
+                <![CDATA[Failure - 2025/09/14 21:30:55]]>
               </value>
             </param>
             <param index="9">
@@ -551,95 +477,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ContentPlaceHolder1_userIdTextBox']"}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNUS5CG91852P3', ip: '10.100.49.194', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id='ContentPlaceHolder1_userIdTextBox']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ContentPlaceHolder1_userIdTextBox']"}
-  (Session info: chrome=140.0.7339.128)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LNUS5CG91852P3', ip: '10.100.49.194', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\U501SXV\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0fba164ed19bf5101e9a8e84316c9db
-*** Element info: {Using=xpath, value=//input[@id='ContentPlaceHolder1_userIdTextBox']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-at com.mymatrix.qa.pagemethods.LoginPage.login(LoginPage.java:95)
-at com.mymatrix.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:79)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:13:15 CDT" name="afterMethod" finished-at="2025-09-14T20:13:16 CDT" duration-ms="985" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:56 CDT" name="afterMethod" finished-at="2025-09-14T21:31:56 CDT" duration-ms="192" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=FAILURE method=LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T20:13:16 CDT" name="afterSuite" finished-at="2025-09-14T20:13:16 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mymatrix.qa.testcases.LoginPageTest@4c39bec8]" started-at="2025-09-14T21:31:56 CDT" name="afterSuite" finished-at="2025-09-14T21:31:56 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
